@@ -1,5 +1,8 @@
 package com.demo1.pojo;
 
+import org.springframework.stereotype.Component;
+
+@Component("user")
 public class User {
     private String username;
     private String password;
